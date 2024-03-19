@@ -1,0 +1,143 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom, #1e5799 0%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    width: 100dvw;
+}
+
+.header_img{
+    padding-bottom: 75px;
+    padding-left: 100px;
+    width: 30dvw;
+}
+.wrapper{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-size: x-large;
+    text-align: justify;
+}
+
+.offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    width: 60%;
+    text-align: center;
+    text-indent: 10px;
+    margin: auto;
+}
+
+.logo_img{
+    height: 30px;
+    width: 90px;
+}
+
+.call_form{
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: lightcyan;
+    height: 400px;
+    width:100dvw;
+    margin: auto;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.offer_span{
+    font-size: 55px;
+    font-weight: 900;
+    font-family: 'Ubuntu';
+}
+.offer_text{
+    font-size: small;
+}
+
+.btn{
+    width: 200px;
+    height: 60px;
+    background-color:gold;
+    border: gold;
+}
+.btn:hover{
+    background-color: goldenrod;
+    box-shadow: lightgrey;
+}
+
+.form_item{
+    height: 30px;
+    width: 450px;
+}
+
+.form_title{
+    font-size:x-large;
+    font-weight:30px;
+}
+
+.submit_button{
+    width: 458px;
+    height: 30px;
+    background-color:gold;
+    border: grey;
+    border-style: solid;
+    border-width: 2px;
+}
+.submit_button:hover{
+    background-color: goldenrod;
+    box-shadow: lightgrey;
+}
+
+.down{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    color: white;
+    text-align: center;
+    height: 75px;
+    width: 100dvw;
+}
+
+.main_title{
+    display: flex;
+    font-size: x-large;
+    font-weight: 30px;
+}
