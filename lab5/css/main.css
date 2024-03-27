@@ -19,6 +19,9 @@ header{
     padding-bottom: 75px;
     padding-left: 100px;
     width: 30dvw;
+    animation-name: anim2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
 }
 
 .wrapper{
@@ -139,16 +142,18 @@ h1{
 .down{
     display: flex;
     justify-content: center;
+    align-items: center;
     background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    color: white;
     text-align: center;
     height: 75px;
     width: 100dvw;
-    transition: height 3s, text-transforn 3s;
+    transition: height 3s, text-transform 3s, transform 3s;
 }
 
 .down:hover{
     height: 100vw;
-    text-transform: capitalize;
+    text-transform:uppercase;
+    transform:translateY(-75vw);
 }
 
 .main_title{
@@ -205,5 +210,16 @@ h1{
     }
     100%{
         transform: rotate(-60deg);
+    }
+}
+
+@keyframes anim2{
+    0%{
+        transform: scale(0%);
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: scale(100%);
+        transform: rotate(0deg);
     }
 }
