@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Lab 7</title>
+</head>
+<body>
+    <form id="values" name = "values" action="#" style="display: none;" class="values">
+        <input type="range" name="min" id="min_value" class="form_item" min="0" max="100" value="1" oninput="this.nextElementSibling.value = this.value">
+        <output class="form_item">1</output>
+        <input type="range" name="max" id="max_value" class="form_item" min="0" max="100" value="10" oninput="this.nextElementSibling.value = this.value">
+        <output class="form_item">10</output>
+        <input type="range" name="retries" id="retries" class="form_item" min="0" max="100" value="5" oninput="this.nextElementSibling.value = this.value">
+        <output class="form_item">5</output>
+        <input type="submit" value="Начать игру!" class="form_item submit_button" id="submit_button" >
+    </form>
+</body>
+<script src = js/main.js> 
+</script>
+</html>
