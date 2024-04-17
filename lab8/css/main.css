@@ -118,7 +118,8 @@ h1{
     height: 60px;
     background-color:gold;
     border: gold;
-    transition: width 3s, height 2s, background-color 3s, margin-left 3s; 
+    transition: width 3s, height 2s, background-color 3s, margin-left 3s;
+
 }
 .btn:hover{
     background-color: greenyellow;
@@ -255,16 +256,17 @@ h1{
     .header_img{
         padding-top: 15px;
         padding-bottom: 25px;
+        padding-left: 0;
         /* padding-left: 30dvw; */
         width: 45dvw;
-        height: 45dvh;
+        height: 45dvw;
 
     }
     .offer{
         text-align: center;
         width: 95dvw;
         justify-content: center ;
-
+        align-items: center;
     }
     .logo_img{
         width: 120px;
@@ -283,12 +285,5 @@ h1{
     .submit_button{
         width: 79dvw;
         margin: auto;
-    }
-    .btn{
-        /* margin-left: 15dvw; */
-        /* justify-content: center; */
-    }
-    .btn:hover{
-        margin-left: 5dvw;
     }
 }
