@@ -1,0 +1,50 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    width: 60%;
+    text-indent: 10px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main_title{
+    display: flex;
+    font-size: x-large;
+    font-weight: 30px;
+}
+.block_text {
+    text-align: center;
+    color: gray;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.block_image {
+    animation-name: anim1;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: top;
+}
+
+@keyframes anim1 {
+    0%{
+        transform: rotate(-60deg);
+    }
+    50%{
+        transform: rotate(60deg);
+    }
+    100%{
+        transform: rotate(-60deg);
+    }
+}
