@@ -1,0 +1,35 @@
+h1 {
+    color: red;
+    margin-top: 0;
+}
+
+.blue_box {
+    overflow: hidden;
+    background: blue;
+    border: 2px solid darkblue;
+    width: 150px;
+    height: 75px;
+    color: white;
+}
+
+h2 {
+    background-color: green;
+    color: white;
+}
+
+#big_frame {
+    max-height: 100px;
+    padding: 50px;
+}
+
+.p_padding {
+    padding-left: 50px;
+}
+
+li {
+    border: 2px solid;
+}
+
+a:visited {
+    color: blue;
+}
